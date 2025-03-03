@@ -1,0 +1,45 @@
+# Environnement virtuel
+venv/
+ENV/
+env/
+.env
+
+# Fichiers cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Fichiers de distribution et de construction
+dist/
+build/
+*.egg-info/
+
+# Fichiers de logs
+*.log
+logs/
+
+# Fichiers d'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Fichiers de configuration locaux
+config.local.py
+*.env
+
+# Fichiers de base de données
+*.db
+*.sqlite3
+
+# Fichiers temporaires
+tmp/
+.tmp/
+temp/
+
+# Fichiers spécifiques au projet
+subscriptions.txt 
